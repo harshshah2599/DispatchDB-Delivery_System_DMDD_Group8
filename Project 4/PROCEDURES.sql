@@ -2,7 +2,7 @@
 -- EXECUTE FROM APP ADMIN --
 ---------------------------------------------------------------------------------------------------------
 
--- STORE PROCEDURES --
+-- STORED PROCEDURES --
 
 
 CREATE OR REPLACE PROCEDURE upsert_delivery_boy_details (
