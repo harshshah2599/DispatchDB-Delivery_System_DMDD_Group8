@@ -9,6 +9,12 @@ EXEC customer_mgmt.upsert_customer_details ('David', 'Garcia', '7890123456', 'da
 EXEC customer_mgmt.upsert_customer_details ('Tom', 'Wilson', '9012345678', 'tomwilson@gmail.com');
 EXEC customer_mgmt.upsert_customer_details ('Emily', 'Davis', '1111111111', 'emilydavis@gmail.com');
 
+-- wrong input
+EXEC customer_mgmt.upsert_customer_details ('ABC', 'XYZ', '1111111122', 'emilydavisgmail.com');
+
+EXEC customer_mgmt.upsert_customer_details ('Emily', 'Davis', '11111111', 'emilydavis@gmail.com');
+
+
 
 --select * from appadmin.restaurant where city = '';
 
