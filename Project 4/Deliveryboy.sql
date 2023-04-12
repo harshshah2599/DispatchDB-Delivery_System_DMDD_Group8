@@ -91,6 +91,10 @@ execute pkg_Deliveryboy_mgmt.upsert_delivery_boy_details(appadmin.delivery_boy_s
 execute pkg_Deliveryboy_mgmt.upsert_delivery_boy_details(appadmin.delivery_boy_seq.nextval,'Mike', 'Brown', '2225554567', 'YZA567');
 execute pkg_Deliveryboy_mgmt.upsert_delivery_boy_details(appadmin.delivery_boy_seq.nextval,'Lisa', 'Taylor', '6785558901', 'BCD890');
 
+--wrong input
+execute pkg_Deliveryboy_mgmt.upsert_delivery_boy_details(appadmin.delivery_boy_seq.nextval,'Lisa', 'Taylor', '675558901', 'BCD890');
+
+
 --select * from appadmin.delivery_boy;
 commit;
 
